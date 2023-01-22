@@ -156,9 +156,11 @@ body {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero-image.jpg);
+  max-width: 1440px;
+  margin: auto;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px;
+  background-size: cover;
 }
 .hero-container {
 }
@@ -419,7 +421,6 @@ body {
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
-  border: 0.5px solid var(--background-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
